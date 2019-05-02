@@ -25,6 +25,7 @@ namespace SeleniumTest_Azure
         {
 
             Console.WriteLine("AZURE DevOps 2");
+            Assert.Fail();
 
         }
 
