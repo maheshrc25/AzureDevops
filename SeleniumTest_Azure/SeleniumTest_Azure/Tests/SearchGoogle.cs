@@ -16,7 +16,7 @@ namespace SeleniumTest_Azure
         {
 
             Console.WriteLine("AZURE DevOps 1");
-            Assert.Fail();
+           
         }
 
 
@@ -25,7 +25,7 @@ namespace SeleniumTest_Azure
         {
 
             Console.WriteLine("AZURE DevOps 2");
-            Assert.Fail();
+            
 
         }
 
