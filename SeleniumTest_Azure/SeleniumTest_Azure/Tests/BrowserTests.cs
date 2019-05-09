@@ -27,6 +27,8 @@ namespace Selenium.Test
         {
             _chrome.Navigate().GoToUrl("https://corridor.pramati.com/cas/login#?authType=password");
             _chrome.Close();
+
+            _chrome.Dispose();
         }
     }
 }
