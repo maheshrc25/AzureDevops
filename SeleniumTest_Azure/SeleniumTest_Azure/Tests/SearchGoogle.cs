@@ -10,11 +10,9 @@ namespace SeleniumTest_Azure
    [TestClass]
    public class SearchGoogle
     {
-
         [TestMethod]
-        public  void TestForEos_1()
+        public void TestForEos_1()
         {
-
             Console.WriteLine("AZURE DevOps 1");
            
         }
