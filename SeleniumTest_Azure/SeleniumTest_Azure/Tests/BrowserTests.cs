@@ -19,7 +19,7 @@ namespace Selenium.Test
             chromeOptions= new ChromeOptions();
             chromeOptions.AddArgument("headless");
             // Get the current directory.
-            string path = System.IO.Directory.GetCurrentDirectory();
+         //   string path = System.IO.Directory.GetCurrentDirectory();
            // Console.WriteLine("The current directory is {0}", path);
             _chrome = new ChromeDriver(System.IO.Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location),chromeOptions);
           
